@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA790752BB44BCE008F1B26 /* Pioneer_Square_Watch_tourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA790742BB44BCE008F1B26 /* Pioneer_Square_Watch_tourApp.swift */; };
+		FEA790772BB44BCE008F1B26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA790762BB44BCE008F1B26 /* ContentView.swift */; };
+		FEA790792BB44BCF008F1B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA790782BB44BCF008F1B26 /* Assets.xcassets */; };
+		FEA7907C2BB44BCF008F1B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA7907B2BB44BCF008F1B26 /* Preview Assets.xcassets */; };
+		FEA790862BB44BD0008F1B26 /* Pioneer_Square_Watch_tourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA790852BB44BD0008F1B26 /* Pioneer_Square_Watch_tourTests.swift */; };
+		FEA790902BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA7908F2BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITests.swift */; };
+		FEA790922BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA790912BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA790822BB44BD0008F1B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA790692BB44BCE008F1B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA790702BB44BCE008F1B26;
+			remoteInfo = "Pioneer Square Watch tour";
+		};
+		FEA7908C2BB44BD0008F1B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA790692BB44BCE008F1B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA790702BB44BCE008F1B26;
+			remoteInfo = "Pioneer Square Watch tour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA790712BB44BCE008F1B26 /* Pioneer Square Watch tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pioneer Square Watch tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA790742BB44BCE008F1B26 /* Pioneer_Square_Watch_tourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pioneer_Square_Watch_tourApp.swift; sourceTree = "<group>"; };
+		FEA790762BB44BCE008F1B26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEA790782BB44BCF008F1B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA7907B2BB44BCF008F1B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEA790812BB44BD0008F1B26 /* Pioneer Square Watch tourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pioneer Square Watch tourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA790852BB44BD0008F1B26 /* Pioneer_Square_Watch_tourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pioneer_Square_Watch_tourTests.swift; sourceTree = "<group>"; };
+		FEA7908B2BB44BD0008F1B26 /* Pioneer Square Watch tourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pioneer Square Watch tourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA7908F2BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pioneer_Square_Watch_tourUITests.swift; sourceTree = "<group>"; };
+		FEA790912BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pioneer_Square_Watch_tourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA7906E2BB44BCE008F1B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA7907E2BB44BD0008F1B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA790882BB44BD0008F1B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA790682BB44BCE008F1B26 = {
+			isa = PBXGroup;
+			children = (
+				FEA790732BB44BCE008F1B26 /* Pioneer Square Watch tour */,
+				FEA790842BB44BD0008F1B26 /* Pioneer Square Watch tourTests */,
+				FEA7908E2BB44BD0008F1B26 /* Pioneer Square Watch tourUITests */,
+				FEA790722BB44BCE008F1B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA790722BB44BCE008F1B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA790712BB44BCE008F1B26 /* Pioneer Square Watch tour.app */,
+				FEA790812BB44BD0008F1B26 /* Pioneer Square Watch tourTests.xctest */,
+				FEA7908B2BB44BD0008F1B26 /* Pioneer Square Watch tourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA790732BB44BCE008F1B26 /* Pioneer Square Watch tour */ = {
+			isa = PBXGroup;
+			children = (
+				FEA790742BB44BCE008F1B26 /* Pioneer_Square_Watch_tourApp.swift */,
+				FEA790762BB44BCE008F1B26 /* ContentView.swift */,
+				FEA790782BB44BCF008F1B26 /* Assets.xcassets */,
+				FEA7907A2BB44BCF008F1B26 /* Preview Content */,
+			);
+			path = "Pioneer Square Watch tour";
+			sourceTree = "<group>";
+		};
+		FEA7907A2BB44BCF008F1B26 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEA7907B2BB44BCF008F1B26 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEA790842BB44BD0008F1B26 /* Pioneer Square Watch tourTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA790852BB44BD0008F1B26 /* Pioneer_Square_Watch_tourTests.swift */,
+			);
+			path = "Pioneer Square Watch tourTests";
+			sourceTree = "<group>";
+		};
+		FEA7908E2BB44BD0008F1B26 /* Pioneer Square Watch tourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA7908F2BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITests.swift */,
+				FEA790912BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITestsLaunchTests.swift */,
+			);
+			path = "Pioneer Square Watch tourUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA790702BB44BCE008F1B26 /* Pioneer Square Watch tour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA790952BB44BD0008F1B26 /* Build configuration list for PBXNativeTarget "Pioneer Square Watch tour" */;
+			buildPhases = (
+				FEA7906D2BB44BCE008F1B26 /* Sources */,
+				FEA7906E2BB44BCE008F1B26 /* Frameworks */,
+				FEA7906F2BB44BCE008F1B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pioneer Square Watch tour";
+			productName = "Pioneer Square Watch tour";
+			productReference = FEA790712BB44BCE008F1B26 /* Pioneer Square Watch tour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA790802BB44BD0008F1B26 /* Pioneer Square Watch tourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA790982BB44BD0008F1B26 /* Build configuration list for PBXNativeTarget "Pioneer Square Watch tourTests" */;
+			buildPhases = (
+				FEA7907D2BB44BD0008F1B26 /* Sources */,
+				FEA7907E2BB44BD0008F1B26 /* Frameworks */,
+				FEA7907F2BB44BD0008F1B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA790832BB44BD0008F1B26 /* PBXTargetDependency */,
+			);
+			name = "Pioneer Square Watch tourTests";
+			productName = "Pioneer Square Watch tourTests";
+			productReference = FEA790812BB44BD0008F1B26 /* Pioneer Square Watch tourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA7908A2BB44BD0008F1B26 /* Pioneer Square Watch tourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA7909B2BB44BD0008F1B26 /* Build configuration list for PBXNativeTarget "Pioneer Square Watch tourUITests" */;
+			buildPhases = (
+				FEA790872BB44BD0008F1B26 /* Sources */,
+				FEA790882BB44BD0008F1B26 /* Frameworks */,
+				FEA790892BB44BD0008F1B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA7908D2BB44BD0008F1B26 /* PBXTargetDependency */,
+			);
+			name = "Pioneer Square Watch tourUITests";
+			productName = "Pioneer Square Watch tourUITests";
+			productReference = FEA7908B2BB44BD0008F1B26 /* Pioneer Square Watch tourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA790692BB44BCE008F1B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FEA790702BB44BCE008F1B26 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FEA790802BB44BD0008F1B26 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FEA790702BB44BCE008F1B26;
+					};
+					FEA7908A2BB44BD0008F1B26 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FEA790702BB44BCE008F1B26;
+					};
+				};
+			};
+			buildConfigurationList = FEA7906C2BB44BCE008F1B26 /* Build configuration list for PBXProject "Pioneer Square Watch tour" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA790682BB44BCE008F1B26;
+			productRefGroup = FEA790722BB44BCE008F1B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA790702BB44BCE008F1B26 /* Pioneer Square Watch tour */,
+				FEA790802BB44BD0008F1B26 /* Pioneer Square Watch tourTests */,
+				FEA7908A2BB44BD0008F1B26 /* Pioneer Square Watch tourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA7906F2BB44BCE008F1B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA7907C2BB44BCF008F1B26 /* Preview Assets.xcassets in Resources */,
+				FEA790792BB44BCF008F1B26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA7907F2BB44BD0008F1B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA790892BB44BD0008F1B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA7906D2BB44BCE008F1B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA790772BB44BCE008F1B26 /* ContentView.swift in Sources */,
+				FEA790752BB44BCE008F1B26 /* Pioneer_Square_Watch_tourApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA7907D2BB44BD0008F1B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA790862BB44BD0008F1B26 /* Pioneer_Square_Watch_tourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA790872BB44BD0008F1B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA790922BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITestsLaunchTests.swift in Sources */,
+				FEA790902BB44BD0008F1B26 /* Pioneer_Square_Watch_tourUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA790832BB44BD0008F1B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA790702BB44BCE008F1B26 /* Pioneer Square Watch tour */;
+			targetProxy = FEA790822BB44BD0008F1B26 /* PBXContainerItemProxy */;
+		};
+		FEA7908D2BB44BD0008F1B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA790702BB44BCE008F1B26 /* Pioneer Square Watch tour */;
+			targetProxy = FEA7908C2BB44BD0008F1B26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEA790932BB44BD0008F1B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEA790942BB44BD0008F1B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA790962BB44BD0008F1B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pioneer Square Watch tour/Preview Content\"";
+				DEVELOPMENT_TEAM = K9GCJ755BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trombley206apps.Pioneer-Square-Watch-tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEA790972BB44BD0008F1B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pioneer Square Watch tour/Preview Content\"";
+				DEVELOPMENT_TEAM = K9GCJ755BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trombley206apps.Pioneer-Square-Watch-tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEA790992BB44BD0008F1B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9GCJ755BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trombley206apps.Pioneer-Square-Watch-tourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pioneer Square Watch tour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pioneer Square Watch tour";
+			};
+			name = Debug;
+		};
+		FEA7909A2BB44BD0008F1B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9GCJ755BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trombley206apps.Pioneer-Square-Watch-tourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pioneer Square Watch tour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pioneer Square Watch tour";
+			};
+			name = Release;
+		};
+		FEA7909C2BB44BD0008F1B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9GCJ755BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trombley206apps.Pioneer-Square-Watch-tourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pioneer Square Watch tour";
+			};
+			name = Debug;
+		};
+		FEA7909D2BB44BD0008F1B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9GCJ755BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trombley206apps.Pioneer-Square-Watch-tourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pioneer Square Watch tour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA7906C2BB44BCE008F1B26 /* Build configuration list for PBXProject "Pioneer Square Watch tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA790932BB44BD0008F1B26 /* Debug */,
+				FEA790942BB44BD0008F1B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA790952BB44BD0008F1B26 /* Build configuration list for PBXNativeTarget "Pioneer Square Watch tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA790962BB44BD0008F1B26 /* Debug */,
+				FEA790972BB44BD0008F1B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA790982BB44BD0008F1B26 /* Build configuration list for PBXNativeTarget "Pioneer Square Watch tourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA790992BB44BD0008F1B26 /* Debug */,
+				FEA7909A2BB44BD0008F1B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA7909B2BB44BD0008F1B26 /* Build configuration list for PBXNativeTarget "Pioneer Square Watch tourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA7909C2BB44BD0008F1B26 /* Debug */,
+				FEA7909D2BB44BD0008F1B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA790692BB44BCE008F1B26 /* Project object */;
+}
